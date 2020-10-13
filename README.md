@@ -2,7 +2,7 @@
 
 We publish our code and datasets for the paper "Traffic Intersection Re-identification using Monocular Camera Sensor".  The code and datasets are coming soon!
 
-# CODE Requirements:
+## CODE Requirements:
 
 * python 3.6
 
@@ -10,7 +10,7 @@ We publish our code and datasets for the paper "Traffic Intersection Re-identifi
 
 * Additional Python packages: numpy, matplotlib, Pillow, torchvision
 
-# Publications:
+## Publications:
 
 If you use our code or dataset, please consider referencing the following papers:
 Traffic Intersection Re-identification using Monocular Camera Sensor. L. Xiong, Z. Deng, Y. Huang, W. Du, X. Zhao, C. Lu, W. Tian. xxx, October 2020.\[**PDF**\]

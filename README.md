@@ -10,7 +10,7 @@ We publish our code and datasets for the paper "Traffic Intersection Re-identifi
 
 Based on the prior work of RobotCar, we present "RobotCar Intersection" which covers 36588 images of eight intersections in different season and different time of the day.
 
-![RobotCar Intersection](http://www.baidu.com/img/bd_logo1.png)
+![RobotCar Intersection](images/RobotCar Intersection.png)
 
 ## Campus Intersection
 
@@ -18,14 +18,12 @@ Based on the prior work of RobotCar, we present "RobotCar Intersection" which co
 
 This dataset consists of 3340 sperical panoramic images from eight intersections in the Jiading campus of Tongji University.
 
-![Campus Intersection](http://www.baidu.com/img/bd_logo1.png)
+![Campus Intersection](images/Campus_Intersection.png)
 
 # CODE Requirements:
 
  *python 3.6
- 
  *PyTorch: Make sure to install the Pytorch version for Python 3.6 with CUDA support (code tested for CUDA 8.0, CUDA 9.0 and CUDA 10.0). I am using PyTorch 0.4.1.
- 
  ***Additional Python packages**: numpy, matplotlib, Pillow, torchvision
 # Publications:
 

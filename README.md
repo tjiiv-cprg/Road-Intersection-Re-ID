@@ -10,7 +10,7 @@ We publish our code and datasets for the paper "Traffic Intersection Re-identifi
 
 Based on the prior work of RobotCar, we present "RobotCar Intersection" which covers 36588 images of eight intersections in different season and different time of the day.
 
-![RobotCar Intersection](images/RobotCar Intersection.png)
+![RobotCar Intersection](images/RobotCar_Intersection.png)
 
 ## Campus Intersection
 

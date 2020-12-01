@@ -1,19 +1,20 @@
 # Road-Intersection-Re-ID
 
-We publish our code and datasets for the paper "Traffic Intersection Re-identification using Monocular Camera Sensor".  The code and datasets are coming soon!
+We publish our code and datasets for the paper "Traffic Intersection Re-Identification Using Monocular Camera Sensors".  The code and datasets are coming soon!
 
 ## CODE Requirements:
 
-* python 3.6
+* python 3.6.8
 
-* PyTorch: Make sure to install the Pytorch version for Python 3.6 with CUDA support (code tested for CUDA 8.0, CUDA 9.0 and CUDA 10.0). I am using PyTorch 0.4.1.
+* PyTorch: Make sure to install the Pytorch version for Python 3.6 with CUDA support (code tested for CUDA 8.0, CUDA 9.0 and CUDA 10.0). I am using PyTorch 1.4.0.
 
-* Additional Python packages: numpy, matplotlib, Pillow, torchvision
+* Additional Python packages: numpy, matplotlib, Pillow, torchvision0.5.0
 
 ## Publications:
 
 If you use our code or dataset, please consider referencing the following papers:
-Traffic Intersection Re-identification using Monocular Camera Sensor. L. Xiong, Z. Deng, Y. Huang, W. Du, X. Zhao, C. Lu, W. Tian. xxx, October 2020.\[**PDF**\]
+
+Xiong, L.; Deng, Z.; Huang, Y.; Du, W.; Zhao, X.; Lu, C.; Tian, W. Traffic Intersection Re-Identification Using Monocular Camera Sensors. *Sensors* **2020**, *20*(22), 6515.**[PDF](https://doi.org/10.3390/s20226515)**
 
 # Traffic Intersection Re-identification using Monocular Camera Sensor
 
@@ -46,3 +47,16 @@ We propose a Hybrid Double-Level (HDL) network for traffic intersection re-ident
 ![HDL_Network_Architecture](images/HDL_Network.png)
 
 We will compare our networks of different configuration with three baseline methods. The training detail and experimental result are shown in the paper.
+
+## Files notes
+
+```
+txt file = (image path, intersection ID, Attribute ID, global ID)
+
+data_campus_new.txt # the test images and labels of new 3 intersections.
+data_campus_test.txt # the test images and labels of old 5 intersections.
+data_campus_train.txt # the train images and labels of old 5 intersections.
+data_test_rest40.txt # the test images and labels of RobotCar intersections.
+data_train_previous60.txt # the train images and labels of RobotCar intersections.
+```
+

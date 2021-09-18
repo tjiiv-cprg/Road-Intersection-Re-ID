@@ -1,6 +1,6 @@
 # Road-Intersection-Re-ID
 
-We publish our code and datasets for the paper "Traffic Intersection Re-Identification Using Monocular Camera Sensors".  The code and datasets are coming soon!
+We publish our code and datasets for the paper "Traffic Intersection Re-Identification Using Monocular Camera Sensors".  The code and datasets can be download by the related links!
 
 ## CODE Requirements:
 
@@ -26,19 +26,62 @@ This project strives to explore intersection re-ID by monocular camera sensor, w
 
 ## RobotCar Intersection
 
-***The download link will be coming soon in [Google Drive](https://accounts.google.com/).***
-
 Based on the prior work of RobotCar, we present "RobotCar Intersection" which covers 36588 images of eight intersections in different season and different time of the day.
 
 ![RobotCar Intersection](images/RobotCar_Intersection.png)
 
-## Campus Intersection
+##### note:
 
-***The download link will be coming soon in [Google Drive](https://accounts.google.com/).***
+1. Before using our dataset, the official ***Robotcar*** should be download by the [link](https://robotcar-dataset.robots.ox.ac.uk/datasets/).
+
+2.  unzip all individual dataset into one folder named robotcar. Folder structure likes below.
+
+|--robotcar
+
+|--|--2014-05-19-13-20-57
+
+|--|--|--image
+
+|--|--|--|--0001.png, 0002.png, 0003.png, ....
+
+|--|--2014-06-24-14-47-45
+
+##### labels:
+
+for training, data_train_previous60.txt
+
+for testing, data_test_rest40.txt
+
+the pretrained model can be download by this link ***[Google Driver](https://drive.google.com/file/d/1owplOjzNczipG2PwXZw1jHmGiTCezJKB/view?usp=sharing)*** or ***[Baidu Driver](https://pan.baidu.com/s/1G_68U1EsXnvnHdkymwZcxQ )***(提取码：5jsu).
+
+## Campus Intersection
 
 This dataset consists of 3340 sperical panoramic images from eight intersections in the Jiading campus of Tongji University.
 
 <img src="images/Campus_Intersection.png" width="640" alt="Campus_Intersection"/>
+
+##### note:
+
+1. download the dataset from online disk. The download link is ***[Google Drive](https://drive.google.com/file/d/1lCKlU1XAhBaLW5R3ttwevLY395pDLAAN/view?usp=sharing)*** and ***[Baidu Drive](https://pan.baidu.com/s/14rQIfQq_WVhTtx-BE_FfgQ )***(提取码：br05)
+2. Folder structure likes below.
+
+|--intersection_search_dwx
+
+|--|--image
+
+|--|--|--00001.jpeg, 00002.jpeg, 00003.jpeg, ....
+
+##### labels:
+
+for training, data_campus_train.txt
+
+for testing, data_campus_test.txt
+
+to identify new intersections, data_campus_new.txt
+
+the pretrained model can be download by this link ***[Google Driver](https://drive.google.com/file/d/1lFIAub_uWfNBeS-wteZBATN90H-n9qta/view?usp=sharing)*** or ***[Baidu Driver](https://pan.baidu.com/s/1Y6BT-jeI9yt2lXCs_uCCFw )***(提取码：alcm).
+
+
 
 ## HDL Network Architecture
 
